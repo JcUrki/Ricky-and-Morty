@@ -1,0 +1,16 @@
+#favorite-section{
+    width: 5rem;
+    background-color: rgba(255, 255, 255, 0.339);
+    border-radius: 0.2rem;
+    height: 100%;       
+}
+
+#favorite-title{
+    text-align: center;
+}
+
+#favorite-choosed{
+    text-align: center;
+    padding: 0.5rem;
+    color: rgb(249, 242, 48);
+}

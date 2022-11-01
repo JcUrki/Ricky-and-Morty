@@ -1,0 +1,36 @@
+#card-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+}
+
+#card-section{
+    text-align: center;
+    padding: 0;
+    border: 0.05rem solid greenyellow;
+}
+
+#card-section:hover{
+    box-shadow: 1px 2px 4px 6px rgba(215, 194, 2, 0.5);
+    transform: scale(1.1);
+    border: none;
+    margin: 0.5rem;
+}
+
+#card-btn{
+    background: linear-gradient(45deg, rgb(150, 255, 150), rgb(255, 171, 4));
+    border: 0rem;
+    color: black;
+    font-weight: bold;
+}
+
+#card-btn:hover {
+    background: linear-gradient(45deg, rgb(255, 253, 150), rgb(125, 48, 249));
+    color: rgb(37, 37, 37);
+    transition: all 0.1s ease-in;
+}
+
+#card-header{
+    background-color: rgb(14, 157, 228);
+    font-weight: bold;
+}

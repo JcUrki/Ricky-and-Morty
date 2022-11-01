@@ -1,0 +1,20 @@
+#main-page-container{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-page-btn{
+    background: linear-gradient(45deg, rgb(150, 255, 150), rgb(255, 171, 4));
+    border: 0rem;
+    color: black;
+    font-weight: bold;
+}
+
+#main-page-btn:hover {
+    background: linear-gradient(45deg, rgb(255, 253, 150), rgb(125, 48, 249));
+    color: rgb(37, 37, 37);
+    font-size: 1.5rem;
+    transition: all 0.1s ease-in;
+  }

@@ -1,0 +1,31 @@
+#character-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 1rem;
+}
+
+#character-info-like{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#loading-section{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    gap: 2rem;
+    font-size: 4rem;
+    animation: flash;
+    animation-duration: 5s;
+}
+
+#favorite-container{
+    height: auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
